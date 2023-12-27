@@ -6,12 +6,12 @@ Similar to composer global install laravel, but not presently supporting global 
    git clone https://github.com/aghashan/bash-laravel-install
   ```
 - ```
-   chmod +x installlaravel
+   cd bash-laravel-install
    ```
 - ```
-  ./installlaravel
+  cp installaravel.sh /bin/
   ```
-- or
+- - To run the program, paste the command below in the terminal. 
 - ```
-    installlaravel
+    installlaravel.sh
     ``` 
