@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read -p  "Masukan nama website : " webname
+
+if [ -z $webname ]; then
+    clear
+    echo "Nama Website Tidak Boleh Kosong!!"
+    ./installaravel
+else
+    clear
+    echo "Tunggu Delo Bro...."   
+    composer create-project laravel/laravel $webname  
+fi
+
