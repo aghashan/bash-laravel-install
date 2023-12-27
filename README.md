@@ -4,4 +4,4 @@
 - open terminal
 - ``` git clone https://github.com/aghashan/bash-laravel-install\ ```
 - ``` chmod +x installlaravel ```
-- 4. ```./installlaravel``` or ``` installlaravel ``` 
+- ```./installlaravel``` or ``` installlaravel ``` 

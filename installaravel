@@ -1,14 +1,3 @@
-#!/bin/bash
-
-read -p  "Masukan nama website : " webname
-
-if [ -z $webname ]; then
-    clear
-    echo "Nama Website Tidak Boleh Kosong!!"
-    ./installaravel
-else
-    clear
-    echo "Tunggu Delo Bro...."   
-    composer create-project laravel/laravel $webname  
-fi
-
+z="
+";lz='o...';Xz='idak';sz='ect ';Pz=' ]; ';oz='oser';tz='vel/';Uz=' "Na';cz='./in';nz='comp';Lz='if [';Mz=' -z ';Tz='echo';dz='stal';hz=' "Tu';Oz='name';qz='ate-';Kz='me';Az='read';az='oson';Bz=' -p ';kz='o Br';iz='nggu';Jz='ebna';Rz='clea';Yz=' Bol';Iz=' " w';gz='else';pz=' cre';Dz='suka';jz=' Del';Qz='then';Ez='n na';Nz='$web';ez='lara';mz='."';Wz='te T';rz='proj';Cz=' "Ma';Fz='ma w';Hz='te :';uz='vel ';Sz='r';vz='fi';Gz='ebsi';Vz='ma W';Zz='eh K';bz='g!!"';fz='vel';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$z$Lz$Mz$Nz$Oz$Pz$Qz$z$Rz$Sz$z$Tz$Uz$Vz$Gz$Wz$Xz$Yz$Zz$az$bz$z$cz$dz$ez$fz$z$gz$z$Rz$Sz$z$Tz$hz$iz$jz$kz$lz$mz$z$nz$oz$pz$qz$rz$sz$ez$tz$ez$uz$Nz$Oz$z$vz"
