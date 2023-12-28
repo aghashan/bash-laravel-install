@@ -9,7 +9,7 @@ Similar to composer global install laravel.
    cd laravel-simple-install
    ```
 - ```
-  cp installaravel.sh /bin/
+  sudo cp installaravel.sh /bin/
   ```
 - - To run the program, paste the command below in the terminal. 
 - ```
