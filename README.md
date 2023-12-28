@@ -1,4 +1,4 @@
-# bash-laravel-install
+# laravel-simple-install
 Similar to composer global install laravel. 
 ## Install And Usage
 - open terminal
