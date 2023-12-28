@@ -1,12 +1,12 @@
 # bash-laravel-install
-Similar to composer global install laravel, but not presently supporting global install laravel. 
+Similar to composer global install laravel. 
 ## Install And Usage
 - open terminal
 - ```
    git clone https://github.com/aghashan/bash-laravel-install
   ```
 - ```
-   cd bash-laravel-install
+   cd laravel-simple-install
    ```
 - ```
   cp installaravel.sh /bin/
