@@ -1,5 +1,5 @@
 # laravel-simple-install
-Similar to composer global install laravel. 
+Similar to composer global install laravel.Version 2 new feature Laravel install with Breeze.
 ## Install And Usage
 - open terminal
 - ```
