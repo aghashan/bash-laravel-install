@@ -8,7 +8,7 @@ while true; do
     echo "1. Laravel"
     echo "2. Laravel With Livewiew"
     echo "3. Laravel Breeze Blade"
-    echo "5. Qiut"
+    echo "4. Quit"
 
     read -p "Masukkan pilihan Anda [1-4]: " choice
 
