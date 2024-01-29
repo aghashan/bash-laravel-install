@@ -10,19 +10,23 @@ while true; do
     echo "3. Laravel Breeze Blade"
     echo "4. Quit"
 
-    read -p "Masukkan pilihan Anda [1-4]: " choice
+    read -p "Enter your choice [1-4]: " choice
 
     case $choice in
         1)
             read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
+            exit 0
             ;;
         2)
             read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
+            wait
             cd $webname
             composer require livewire/livewire
+            php artisan livewire:layout
             php artisan livewire:publish --config
+            exit 0
             ;;
         3)
             read -p "Enter Website Name : " webname
@@ -32,17 +36,18 @@ while true; do
             php artisan breeze:install blade 
             php artisan migrate
             wait 
-            secret="php artisan serve; exec bash"
+            perintah_anda="php artisan serve; exec bash"
             terminal_emulators=("gnome-terminal" "konsole" "xterm" "mate-terminal" "xfce4-terminal" "terminator")
             for terminal in "${terminal_emulators[@]}"; do
                 if command -v "$terminal" &> /dev/null; then
-                    "$terminal" -- bash -c "$secret"
+                    "$terminal" -- bash -c "$perintah_anda"
                 fi
             done
             echo "Run 'php artisan serve' manually."
             cd $webname
             npm install
             npm run dev
+            exit 0
             ;;
         4)
             read -p "Enter Website Name : " webname
@@ -52,17 +57,18 @@ while true; do
             php artisan breeze:install livewire 
             php artisan migrate
             wait 
-            secret="php artisan serve; exec bash"
+            perintah_anda="php artisan serve; exec bash"
             terminal_emulators=("gnome-terminal" "konsole" "xterm" "mate-terminal" "xfce4-terminal" "terminator")
             for terminal in "${terminal_emulators[@]}"; do
                 if command -v "$terminal" &> /dev/null; then
-                    "$terminal" -- bash -c "$secret"
+                    "$terminal" -- bash -c "$perintah_anda"
                 fi
             done
             echo "Run 'php artisan serve' manually."
             cd $webname
             npm install
             npm run dev
+            exit 0
             ;;
         5)
             echo "Quit...."
