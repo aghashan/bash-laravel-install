@@ -32,11 +32,11 @@ while true; do
             php artisan breeze:install blade 
             php artisan migrate
             wait 
-            perintah_anda="php artisan serve; exec bash"
+            secret="php artisan serve; exec bash"
             terminal_emulators=("gnome-terminal" "konsole" "xterm" "mate-terminal" "xfce4-terminal" "terminator")
             for terminal in "${terminal_emulators[@]}"; do
                 if command -v "$terminal" &> /dev/null; then
-                    "$terminal" -- bash -c "$perintah_anda"
+                    "$terminal" -- bash -c "$secret"
                 fi
             done
             echo "Run 'php artisan serve' manually."
@@ -52,11 +52,11 @@ while true; do
             php artisan breeze:install livewire 
             php artisan migrate
             wait 
-            perintah_anda="php artisan serve; exec bash"
+            secret="php artisan serve; exec bash"
             terminal_emulators=("gnome-terminal" "konsole" "xterm" "mate-terminal" "xfce4-terminal" "terminator")
             for terminal in "${terminal_emulators[@]}"; do
                 if command -v "$terminal" &> /dev/null; then
-                    "$terminal" -- bash -c "$perintah_anda"
+                    "$terminal" -- bash -c "$secret"
                 fi
             done
             echo "Run 'php artisan serve' manually."
