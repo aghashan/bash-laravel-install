@@ -6,7 +6,7 @@ while true; do
     echo "           Main Menu           "
     echo "==============================="
     echo "1. Laravel"
-    echo "2. Laravel With Livewiew"
+    echo "2. Laravel With Livewire"
     echo "3. Laravel Breeze Blade"
     echo "4. Quit"
 
