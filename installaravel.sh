@@ -14,18 +14,18 @@ while true; do
 
     case $choice in
         1)
-            read -p "Masukan Nama Web : " webname
+            read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
             ;;
         2)
-            read -p "Masukan Nama Web : " webname
+            read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
             cd $webname
             composer require livewire/livewire
             php artisan livewire:publish --config
             ;;
         3)
-            read -p "Masukan Nama Web : " webname
+            read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
             cd $webname
             composer require laravel/breeze --dev
@@ -45,7 +45,7 @@ while true; do
             npm run dev
             ;;
         4)
-            read -p "Masukan Nama Web : " webname
+            read -p "Enter Website Name : " webname
             composer create-project laravel/laravel $webname
             cd $webname
             composer require laravel/breeze --dev
