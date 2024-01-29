@@ -11,9 +11,9 @@ First, you need to create a database. The database name laravel. After the insta
    cd laravel-simple-install
    ```
 - ```
-  sudo cp installaravel.sh /bin/
+  sudo cp installaravel /bin/
   ```
 - - To run the program, paste the command below in the terminal. 
 - ```
-    installlaravel.sh
+    installlaravel or ./installlaravel
     ``` 
